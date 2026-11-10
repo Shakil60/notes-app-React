@@ -34,7 +34,7 @@ export default function App() {
         .map((n) => (
           <div>
             <h2>{n.title}</h2>
-            <p dangerouslySetInnerHTML={{ __html: n.body }} />
+            <p>{n.body}</p>
           </div>
         ))}
     </div>
