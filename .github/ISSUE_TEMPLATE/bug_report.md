@@ -1,7 +1,5 @@
 ---
 name: Rapport de bug
-about: Signaler un comportement anormal
-labels: bug
 ---
 
 ## Contexte
