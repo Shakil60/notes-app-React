@@ -164,6 +164,8 @@ notes-app/
 
 ## Contribuer
 
+Pour proposer une modification, voir le [guide de contribution](CONTRIBUTING.md). La page [Qui fait quoi](docs/equipe.md) indique qui contacter selon le dossier.
+
 1. Ouvrez une issue avec le template adapté (`.github/ISSUE_TEMPLATE/`).
 2. Créez une branche depuis `main` nommée `<type>/<n°-issue>-<sujet>` (ex. `fix/3-identifiants-notes`, `docs/8-readme`).
 3. Faites des commits courts au format `type(portée): message` (ex. `fix(web): …`).
