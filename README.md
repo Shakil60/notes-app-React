@@ -135,6 +135,8 @@ L'écran « Mes notes » permet d'ajouter une note (titre + contenu) et de filtr
 
 ## Architecture
 
+Les choix de stockage et de pagination sont expliqués dans les [décisions d’architecture](docs/adr/).
+
 ```mermaid
 flowchart LR
     U[Utilisateur] --> W["Front React / Vite<br/>localhost:5173<br/>web/src/App.jsx"]
