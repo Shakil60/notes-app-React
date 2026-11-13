@@ -20,7 +20,8 @@ function save(n) {
 app.post("/notes", (req, res) => {
   const d = req.body;
   const n = load();
-  const note = { id: n.length + 1, title: d.title, body: d.body, tag: d.tag };
+   const nextId = n.reduce((max, note) => Math.max(max, note.id), 0) + 1;
+  const note = { id: nextId, title: d.title, body: d.body, tag: d.tag };
   n.push(note);
   save(n);
   res.status(201).json(note);
